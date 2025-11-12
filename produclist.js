@@ -28,16 +28,66 @@ const products = [
       { name: "Xanh lá", images: ["image/set1/z7124239187567_65f6fc7d1b676580a861912ab1f37f5f.jpg"] }
     ]
   },
-  { name: "Sweetie Box", price: 55000, image: "image/set2/z7124240730848_fd1fa692da6ec65d11201c19426a7b05.jpg",
-    variants: [{ name: "Đỏ", images: ["image/set2/z7124240730848_fd1fa692da6ec65d11201c19426a7b05.jpg"] }] },
-  { name: "Butterfly Kiss Box", price: 145000, image: "image/set3/z7124241522530_ac4236ab79b760eafe2e63b723154cf5.jpg", isNew: true,
-    variants: [{ name: "Xanh lá", images: ["image/set3/z7124241522541_dc77462d7f97f91d858cd46ef83a76c2.jpg"] }] },
-  { name: "Lovely Basket", price: 130000, image: "image/set4/z7124243291203_f6be4233220309588a945dc767f72ee2.jpg",
-    variants: [{ name: "Hồng", images: ["image/set4/z7124243291203_f6be4233220309588a945dc767f72ee2.jpg"] }] },
-  { name: "Baby Candy", price: 70000, image: "image/set5/z7124244035751_f9dae76e26ab3d2c71d34df11f561c1e.jpg",
-    variants: [{ name: "Hồng", images: ["image/set5/z7124244035751_f9dae76e26ab3d2c71d34df11f561c1e.jpg"] }] },
-  { name: "Sweet Bloom", price: 90000, image: "image/set6/z7141353654013_a30d0c0ae0b692682f55096f3732b712.jpg",
-    variants: [{ name: "Hồng", images: ["image/set6/z7141353654346_60e808782c3d0f9691cc4db9ef9f1a3f.jpg"] }] }
+ {
+    name: "Sweetie Box",
+    price: 55000,
+    image: "image/set2/z7124240730848_fd1fa692da6ec65d11201c19426a7b05.jpg",
+    variants: [
+      { name: "Đỏ", images: ["image/set2/z7124240730848_fd1fa692da6ec65d11201c19426a7b05.jpg"] },
+      { name: "Hồng", images: ["image/set2/z7124240730828_d142ffeb8d2cb826fd05ef3ea6bfbd33.jpg"] },
+      { name: "Xanh lá", images: ["image/set2/z7124240730828_d142ffeb8d2cb826fd05ef3ea6bfbd33.jpg"] },
+      { name: "Tím", images: ["image/set2/z7124240730846_e5224a60cabc8c6c95ed7451eb4a7532.jpg"] },
+      { name: "Xanh lam", images: ["image/set2/z7124240730850_c5268319edb37c2d9176a0e0bbceca3e.jpg"] },
+      { name: "Cam", images: ["image/set2/z7124240730849_fb0a716837596e77d1575cf65042b520.jpg"] },
+      { name: "Vàng", images: ["image/set2/z7124240730856_2e8da3abd4eb01d2ab99f25f3dedf90b.jpg"] }
+    ]
+  },
+  {
+    name: "Butterfly Kiss Box",
+    price: 145000,
+    image: "image/set3/z7124241522530_ac4236ab79b760eafe2e63b723154cf5.jpg",
+    isNew: true,
+    variants: [
+      { name: "Xanh lá", images: ["image/set3/z7124241522541_dc77462d7f97f91d858cd46ef83a76c2.jpg"] },
+      { name: "Đỏ", images: ["image/set3/z7124241522527_81f67b00c097d4fe0944cb7543e4ccc3.jpg"] },
+      { name: "Hồng", images: ["image/set3/z7124241522519_2e5e4fcf71793720258a4ce01f921717.jpg"] },
+      { name: "Xanh mint", images: ["image/set3/z7124241522529_8f3d090cec5907cf5e66ebf3b04575ab.jpg"] },
+      { name: "Tím", images: ["image/set3/z7124241522590_cb469668e29d2353a9a4b58db9de42de.jpg"] },
+    
+    ]
+  },
+  {
+    name: "Lovely Basket",
+    price: 130000,
+    image: "image/set4/z7124243291203_f6be4233220309588a945dc767f72ee2.jpg",
+    variants: [
+      { name: "Tím", images: ["image/set4/z7124243233483_6dce6e57c986bbed0dd2aafb68e932a8.jpg"] },
+      { name: "Hồng", images: ["image/set4/z7124243291203_f6be4233220309588a945dc767f72ee2.jpg"] },
+      { name: "Xanh", images: ["image/set4/z7124243233476_ffb7a659d2d2766b6f85fd2c0cd42de9.jpg"] },
+    ]
+  },
+  {
+    name: "Baby Candy",
+    price: 70000,
+    image: "image/set5/z7124244035751_f9dae76e26ab3d2c71d34df11f561c1e.jpg",
+    variants: [
+      { name: "Hồng", images: ["image/set5/z7124244035751_f9dae76e26ab3d2c71d34df11f561c1e.jpg"] },
+      { name: "Đỏ", images: ["image/set5/z7124244035726_78d42451e0deaa735226bf676c31c803.jpg"] },
+      { name: "Xanh mint", images: ["image/set5/z7124244035752_59e6b4b117ac0f130f3b6b69268212e8.jpg"] },
+      { name: "Tím", images: ["image/set5/z7124244035750_a3d9be4a6e0e8fb8a7e2499a7eaebd15.jpg"] },
+      { name: "Xanh lá", images: ["image/set5/z7124244035721_6b7b5a961d6a7a5f94de72a777f00e4c.jpg"] },
+    ]
+  },
+  {
+    name: "Sweet Bloom",
+    price: 90000,
+    image: "image/set6/z7141353654013_a30d0c0ae0b692682f55096f3732b712.jpg",
+    variants: [
+      { name: "Hồng", images: ["image/set6/z7141353654346_60e808782c3d0f9691cc4db9ef9f1a3f.jpg"] },
+     
+      { name: "Xanh mint", images: ["image/set6/z7141353646865_de32ec1273319853ec24eddef087a6fe.jpg"] },
+    ]
+  }
 ];
 
 // --- UI references ---
